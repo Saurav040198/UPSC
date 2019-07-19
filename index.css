@@ -1,0 +1,56 @@
+body{
+  height: 100%
+  width: 100%;
+}
+
+.bg-image{
+  /* The image used */
+  background-image: url("tab.jpg");
+
+  /* Add the blur effect */
+
+  /* Full height */
+  height: auto;
+  width: auto; 
+
+
+  /* Center and scale the image nicely */
+  
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+ul{
+  list-style-type: :none;
+  float: right;  
+}
+
+ul li{
+  display: inline-block;
+}
+
+ul li a{
+  text-decoration: none;
+  color: #fff;
+  padding: 5px 20px;
+  border: 1px solid trasparent;
+  border-radius: 10px;
+  transition: 1s all ease;
+  font-family: 'Indie Flower', cursive;
+  font-size: 15px;
+}
+
+ul li a:hover{
+  background-color: #fff;
+  color: #000;
+  transform: scale(1.1);
+
+}
+
+ul li.active a{
+  background-color: white;
+  color: black;
+
+}
+
